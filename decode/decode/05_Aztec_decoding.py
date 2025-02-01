@@ -2,7 +2,7 @@ import cv2
 from pyzxing import BarCodeReader
 
 # Read the image
-image = cv2.imread('C:/Users/user/Documents/Decoding-codes/decode/decode/aztec.jpg')
+image = cv2.imread('aztec.jpg')
 
 # Convert the image to grayscale
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

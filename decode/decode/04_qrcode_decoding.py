@@ -7,7 +7,7 @@ import os
 reader = pyzxing.BarCodeReader()
 
 # Load the image using OpenCV
-image = cv2.imread('C:/Users/user/Documents/Decoding-codes/decode/decode/qrcode.jpg')
+image = cv2.imread('qrcode.jpg')
 
 # Save the image to a temporary file
 temp_file = tempfile.NamedTemporaryFile(delete=False, suffix='.png')

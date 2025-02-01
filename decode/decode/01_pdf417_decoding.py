@@ -4,10 +4,10 @@ import subprocess
 import os
 
 # Paths to required files
-javase_jar = "C:/Users/user/Downloads/opencv/opencv/Decoding/javase-3.5.0.jar"
-core_jar = "C:/Users/user/Downloads/opencv/opencv/Decoding/core-3.5.0.jar"
-jcommander_jar = "C:/Users/user/Downloads/opencv/opencv/Decoding/jcommander-1.82.jar"
-barcode_image = "C:/Users/user/Downloads/opencv/opencv/Decoding/id-gabriel.png"
+javase_jar = "javase-3.5.0.jar"
+core_jar = "core-3.5.0.jar"
+jcommander_jar = "jcommander-1.82.jar"
+barcode_image = "id-gabriel.png"
 image_path= "file:///"+barcode_image.replace("//","/")
 # Validate required files
 for file in [javase_jar, core_jar, jcommander_jar, barcode_image]:
